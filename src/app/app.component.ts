@@ -25,13 +25,7 @@ import { Settings } from '../providers/providers';
 
   </ion-menu>
   
-export class MyApp {
-  //rootPage = FirstRunPage;
-  rootPage = SearchPage;
 
-  @ViewChild(Nav) nav: Nav;
-
- /* pages: any[] = [
     { title: 'Tutorial', component: 'TutorialPage' },
     { title: 'Welcome', component: 'WelcomePage' },
     { title: 'Tabs', component: 'TabsPage' },

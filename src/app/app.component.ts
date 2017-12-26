@@ -24,10 +24,7 @@ import { Settings } from '../providers/providers';
     </ion-content>
 
   </ion-menu>
-  <ion-nav #content [root]="rootPage">
-   
-  </ion-nav>`
-})
+  
 export class MyApp {
   //rootPage = FirstRunPage;
   rootPage = SearchPage;
